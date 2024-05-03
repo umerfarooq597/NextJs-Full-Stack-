@@ -23,3 +23,36 @@ export const dashboardCards = [
         percentText:"more than previous week"
     },
 ]
+export const dashboardTransactions = [
+    {
+        name:"total users",
+        image:<HiUsers />,
+        date:"14.02.928",
+        amount:"$3.200"
+    },
+    {
+        name:"total users",
+        image:<HiUsers />,
+        date:"14.02.928",
+        amount:"$3.200"
+    },
+    {
+        name:"total users",
+        image:<HiUsers />,
+        date:"14.02.928",
+        amount:"$3.200"
+    },
+    {
+        name:"total users",
+        image:<HiUsers />,
+        date:"14.02.928",
+        amount:"$3.200"
+    },
+    {
+        name:"total users",
+        image:<HiUsers />,
+        date:"14.02.928",
+        amount:"$3.200"
+    },
+    
+]

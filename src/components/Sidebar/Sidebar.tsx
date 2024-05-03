@@ -25,7 +25,7 @@ const Sidebar = (props: { handleNavHeading: any }) => {
                     <div key={index}>
                         <p className="text-[10px] sm:block hidden text-white">{category.category}</p>
                         {category.items.map((page, pageIndex) => (
-                            <div key={`${index}-${pageIndex}`} className="hover:bg-blue-500 w-48 rounded my-2 sm:space-y-3 active:bg-blue-500" onClick={() => handleNavHeading(page.label)}>
+                            <div key={`${index}-${pageIndex}`} className="hover:bg-gray-700 sm:w-48  rounded my-2 sm:space-y-3" onClick={() => handleNavHeading(page.label)}>
                                 <Link href={page.link}>
                                     <div className="text-center sm:ml-3 space-y-2">
                                         <div className="w-full text-center text-white flex align-middle items-center">

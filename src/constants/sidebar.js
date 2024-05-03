@@ -11,9 +11,9 @@ export const pagesNavbar = [
         link:"/dashboard"
     },
     {
-        label:"User",
+        label:"Users",
         icon:<MdSupervisedUserCircle />,
-        link:"/dashboard/user"
+        link:"/dashboard/users"
     },
     {
         label:"Products",
