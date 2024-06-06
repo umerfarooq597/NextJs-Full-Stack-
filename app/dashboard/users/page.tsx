@@ -1,8 +1,8 @@
 import React from 'react';
 import { usersData } from "@/constants/users"
-import userImage from '../../../../public/dummyprofile.jpeg'
+// import userImage from '../../../../public/dummyprofile.jpeg'
+const userHeadings = ["id", "Image", "Name", "e-mail", "status", "role",]
 const page = () => {
-    const userHeadings = ["id", "Image", "Name", "e-mail", "status", "role",]
     return (
         <div>
             <table className="w-full text-sm text-left text-black rtl:text-right">
@@ -31,10 +31,10 @@ const page = () => {
                                 {tableData.status}
                             </td>
                             <td className="px-6 py-4">
-                                {tableData.userType}
+                                {tableData.status}
                             </td>
                             <td className="px-6 py-4">
-                                {tableData.userType}
+                                {tableData.role}
                             </td>
                         </tr>
                     ))}
@@ -45,3 +45,24 @@ const page = () => {
 }
 
 export default page
+
+
+
+
+// import Particles from "react-tsparticles";
+// import { loadSlim } from "tsparticles-slim";
+// import particlesOptions from "../Constant/tsParticlesOption";
+// React Libraries for Notification of invalid inputs and form submityted successfully + Particle
+//     "react-toastify": "^10.0.5",
+//     "react-tsparticles": "^2.12.2",
+//     "swiper": "^11.1.0",
+//     "tsparticles-slim": "^2.12.0", "react-cookie": "^7.1.4",
+{/* <Particles
+            id="tsparticles"
+            init={particlesInit}
+            // loaded={particlesLoaded}
+            options={particlesOptions}---------------> in components
+        /> */}
+         // const particlesInit = useCallback(async (engine) => {
+  //   await loadSlim(engine);
+  // }, []);

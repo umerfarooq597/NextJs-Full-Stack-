@@ -1,8 +1,3 @@
-import { TfiUser } from "react-icons/tfi";
-// import {dummyProfile} from "../public/constants/images/dummyprofile.jpeg";
-// import userImage from '@/assets/dummyprofile.jpeg'
-
-// import userImage from '../../public/dummyprofile.jpeg';
 import {dummyprofile1, dummyprofile2, dummyprofile} from '@/constants/images';
 
 export const usersData = [
@@ -11,53 +6,53 @@ export const usersData = [
         name: "Gemini",
         status: "Active",
         chat: "0",
-        userType: "System User",
+        email: "gemini@gmail.com",
         image:  dummyprofile1,
-        role:"Admin"
+        role:"User"
       },
     {
         id: 2,
-        name: "Doe",
+        name: "Woakes",
         status: "Active",
         chat: "0",
-        userType: "System User",
+        email: "woakes@gmail.com",
         image: dummyprofile2 ,
-        role:"Admin"
+        role:"User"
       },
     {
         id: 3,
         name: "Johnny",
         status: "Active",
         chat: "0",
-        userType: "System User",
+        email: "johnny@gmail.com",
         image:dummyprofile,
-        role:"Admin"
+        role:"User"
       },
     {
         id: 4,
         name: "Denny",
         status: "Active",
         chat: "0",
-        userType: "System User",
+        email: "denny@gmail.com",
         image: dummyprofile2 ,
-        role:"Admin"
+        role:"User"
       },
     {
         id: 5,
         name: "Dery",
         status: "Active",
         chat: "0",
-        userType: "System User",
+        email: "dery@gmail.com",
         image:dummyprofile,
-        role:"Admin"
+        role:"User"
       },
     {
         id: 6,
         name: "Simul",
         status: "Active",
         chat: "0",
-        userType: "System User",
+        email: "simul@gmail.com",
         image: dummyprofile2 ,
-        role:"Admin"
+        role:"User"
       },
 ]
